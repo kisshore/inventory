@@ -7,8 +7,8 @@
     <th>
       {% for host in site.data.c1 %}
       <tr>
-        <td>host.node</td>
-        <td>host.cpu</td>
+        <td>{{ host.node }}</td>
+        <td>{{ host.cpu }}</td>
       </tr>
  </table>
 {{ site.data.c1 }}
